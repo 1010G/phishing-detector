@@ -4,6 +4,8 @@ import socket
 
 APIKEY = 'APIKEY'
 
+
+
 def blacklist(domain):
     ip = socket.gethostbyname(domain)
     blacklistIp(ip)
