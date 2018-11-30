@@ -17,4 +17,4 @@ def check(url):
         return 0
 
 if __name__ == "__main__":
-    print (check("google.fr"))
+    print (check("zepayload.com"))
