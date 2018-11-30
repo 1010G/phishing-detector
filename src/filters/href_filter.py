@@ -3,6 +3,7 @@
 
 from BeautifulSoup import BeautifulSoup
 import urllib2
+import requests
 
 
 def getDomain(url):
@@ -40,6 +41,7 @@ def href_filter(url,prct):
 
 
 if __name__ == "__main__":
-    print(href_filter("http://www.9gag.com",0.1))
-    print(href_filter("http://chronopaiement.eu/a0a6a3e2a0e2b3a6e5ae7a8e5b6e9a8e/e0a6e3b2q10b2e3q2e5b4q/8639c668f01fbfd4db3b43014ba29e26/index.php",0.1))
+    #print(href_filter("http://www.9gag.com",0.1))
+    print(href_filter("http://www.lorinmoshe.com/",0.1))
+    #print(href_filter("http://chronopaiement.eu/a0a6a3e2a0e2b3a6e5ae7a8e5b6e9a8e/e0a6e3b2q10b2e3q2e5b4q/8639c668f01fbfd4db3b43014ba29e26/index.php",0.1))
 
