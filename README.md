@@ -30,18 +30,24 @@
 - Tester si il y a une redirection
   -  Refus si redirection vers un autre domaine
 - Analyse des liens (href)
-  - Validation si le pourcentage de domaine (contenu sur la page) est suffisant pour être valide. Si le site de phishing posséde aucun lien href vers son domaine, alors il ne sera pas validé.
+  - Validation si le pourcentage de domaine (contenu sur la page) est suffisant pour être valide. Si le site de phishing ne possède aucun lien href vers son domaine, alors il ne sera pas validé.
 - Analyse ip et/ou domaine
   - Validation du domain ou de l'IP si il/elle n'est pas blacklisté
 - Variation d'url, lib python
 
 ## Evaluation d'un site
-- Chaque filtre retourne 1 ou 0, (1 si une menace est détéctée)
-- On fait la moyenne (nombre de menaces / nombres de filtres), ce qui nous donne le taux de menace/
-- Si, le taux de menace est trop élvevé (à defini), alors on léve une alerte.
+- Chaque filtre retourne 1 ou 0, (1 si une menace est détectée)
+- On fait la moyenne (nombre de menaces / nombres de filtres), ce qui nous donne le taux de menace
+- Si le taux de menace est trop élevé (à definir), alors on lève une alerte.
 - Ajout de l'alerte dans le fichier de log, ex { DateTime ; site ; niveau de menace, filtre }
 
-## Implémentation
+### Implémentation
 - Creation des filtres, utiisation de lib
+    - Filtres dans /src/filters
 - Evaluation de l'url
 - Création de log
+    - todo
+
+
+#### Sources de sites malveillants
+https://feeds.inthreat.com/osint/json/
