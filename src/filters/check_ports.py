@@ -9,4 +9,12 @@ def check_port(host, port):
         else:
             return False
 
-print (check_port("mail.zepayload.com", 80))
+def check(url):
+    # Check for 80 
+    if not check_port(url, 80) or not check_port(url, 443):
+        return 1
+    else:
+        return 0
+
+if __name__ == "__main__":
+    print (check("google.fr"))
