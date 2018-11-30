@@ -33,11 +33,13 @@ def href_filter(url,prct):
     domain=url.split(".")
     nbDomain=domains.count(domain[-2]+"."+domain[-1])
     nbAll=len(domains)
-    tauxSimi=float(float(nbDomain)/float(nbAll))
-    if( tauxSimi<= prct):
-        return 1
-    else:
-       return  0
+    if float(nbAll)> 0 :
+        tauxSimi=float(float(nbDomain) / float(nbAll))
+        if ( tauxSimi <= prct):
+            return 1
+        else:
+            return 0
+
 
 
 if __name__ == "__main__":
