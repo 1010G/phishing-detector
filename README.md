@@ -41,7 +41,13 @@
 - Si le taux de menace est trop élevé (à definir), alors on lève une alerte.
 - Ajout de l'alerte dans le fichier de log, ex { DateTime ; site ; niveau de menace, filtre }
 
-## Implémentation
+### Implémentation
 - Creation des filtres, utiisation de lib
+    - Filtres dans /src/filters
 - Evaluation de l'url
 - Création de log
+    - todo
+
+
+#### Sources de sites malveillants
+https://feeds.inthreat.com/osint/json/
