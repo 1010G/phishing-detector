@@ -12,7 +12,7 @@ def forge_indicator(url, score):
     indicator = Indicator(name="Suspicious URL",
                       labels=["malicious-activity"],
                       created=get_time(),
-                      description="This URL has been detected as malicious with a score of " + str(score) + "%.",
+                      description="This URL has been detected as malicious with a score of " + str(score) + ".",
                       pattern="[url:value = '" + url + "']")
 
     return indicator
@@ -27,7 +27,7 @@ def get_time():
 
 def output_to_file(bundle, filename):
     file = open(filename, "w")
-    file.write(bundle)
+    file.write(bundle.serialize(indent=4))
     file.close()
 
 def list_to_file(list, filename):
@@ -37,4 +37,4 @@ if __name__ == "__main__":
     i = forge_indicator("http://test.com", get_time(), 27)
     b = get_bundle([i, i])
     print (b)
-    output_to_file(b.serialize(indent=4), "test.txt")
+    output_to_file(b, "test.txt")
