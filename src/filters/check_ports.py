@@ -10,6 +10,7 @@ def check_port(host, port):
             return False
 
 def check(url):
+    # print ("Checking in check_port for url ", url)
     # Check for 80 
     if not check_port(url, 80) or not check_port(url, 443):
         return 1
