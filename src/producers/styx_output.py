@@ -2,6 +2,11 @@ from stix2 import Indicator
 from stix2 import Bundle
 import datetime
 
+""" Simple HOW-TO """
+""" Forge indicators and save them in a list """
+""" Get a bundle from this list """
+""" Output this bundle to a file """
+
 def forge_indicator(url, timestamp):
 
     indicator = Indicator(name="Suspicious URL",
