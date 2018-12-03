@@ -55,6 +55,7 @@ Il faut du coup faire plus attentions aux vérifications que nous allons effectu
 
 Par ailleurs, il est important de ne pas query trop d'informations via diverses API ou web fetch, il faut essayer d'être au maximum rapide sur l'évaluation de l'url. Une autre idée aurait été de limiter le scope de nos URL, en ne prenant qu'un domaine précis, ou un LTD précis.
 
+Pour le moment, analyser 300 URLs nous prend environ 7 minutes, ce qui est déjà assez conséquent. Un fichier de sortie est disponible à cette [URL](https://github.com/DylanGnd/phishing-detector/blob/master/out.json).
 
 #### Sources de sites malveillants
 https://feeds.inthreat.com/osint/json/
