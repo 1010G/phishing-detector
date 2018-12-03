@@ -7,11 +7,11 @@ import datetime
 """ Get a bundle from this list """
 """ Output this bundle to a file """
 
-def forge_indicator(url, timestamp, score):
+def forge_indicator(url, score):
 
     indicator = Indicator(name="Suspicious URL",
                       labels=["malicious-activity"],
-                      created=timestamp,
+                      created=get_time(),
                       description="This URL has been detected as malicious with a score of " + str(score) + "%.",
                       pattern="[url:value = '" + url + "']")
 
@@ -29,6 +29,9 @@ def output_to_file(bundle, filename):
     file = open(filename, "w")
     file.write(bundle)
     file.close()
+
+def list_to_file(list, filename):
+    output_to_file(get_bundle(list), filename)
 
 if __name__ == "__main__":
     i = forge_indicator("http://test.com", get_time(), 27)
