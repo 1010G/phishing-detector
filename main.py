@@ -9,9 +9,12 @@ from src.filters.check_valid_certificate import check_valid_certificate
 from src.filters.parse_source import parse_source
 from src.filters.check_redirect import check_redirect
 from src.filters.check_suspicious_words import check_words
+from src.filters.check_blacklist import blacklist
 import src.producers.styx_output as styx
 
 BUNDLE_SIZE = 300 # How many analysis before exporting to a file?
+VIRUSTOTAL_APIKEY = '' # your virustotal api key (optionnal)
+
 
 def analyze_url_callback(message, content):
     global BUNDLE_SIZE
@@ -43,7 +46,8 @@ def ponderate(list_of_scores):
                    "certificate": 2,
                    "parse_source": 1.5,
                    "redirect": 3,
-                   "suspicious_word": 1
+                   "suspicious_word": 1,
+                   "blacklist" : 0.1 # max score is 100, then result between 0 and 10
                   }              
 
     # maximum_score = sum(ponderation[c] for c in ponderation)
@@ -76,6 +80,8 @@ def launch_analysis(url):
     scores.append(["redirect", check_redirect(url)])
     # print ("WORDS")
     scores.append(["suspicious_word", check_words(url, suspicious)])
+    if VIRUSTOTAL_APIKEY != '':
+        scores.append(["blacklist", blacklist(url, VIRUSTOTAL_APIKEY)])
 
     final_score = ponderate(scores)
     print (url + " => " + str(final_score))
