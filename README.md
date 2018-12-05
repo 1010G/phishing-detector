@@ -48,6 +48,14 @@
 - Création de log
     - todo
 
+### Réalisation et utilisation du script
+Contrairement au [projet de x0rz](https://github.com/x0rz/phishing_catcher), nous ne faisons pas qu'analyser le domaine. Nous effectuons aussi des tentatives de connexions sur les sites web, ce qui prend du coup plus de temps.
+
+Il faut du coup faire plus attentions aux vérifications que nous allons effectuer. Par exemple, la vérification de certificat n'est pas pertinente vu que notre entrée vient justement d'un flux de certifications.
+
+Par ailleurs, il est important de ne pas query trop d'informations via diverses API ou web fetch, il faut essayer d'être au maximum rapide sur l'évaluation de l'url. Une autre idée aurait été de limiter le scope de nos URL, en ne prenant qu'un domaine précis, ou un LTD précis.
+
+Pour le moment, analyser 300 URLs nous prend environ 7 minutes, ce qui est déjà assez conséquent. Un fichier de sortie est disponible à cette [URL](https://github.com/DylanGnd/phishing-detector/blob/master/out.json).
 
 #### Sources de sites malveillants
 https://feeds.inthreat.com/osint/json/

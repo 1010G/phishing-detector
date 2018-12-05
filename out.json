@@ -1,0 +1,553 @@
+{
+    "objects": [
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:16.972Z",
+            "description": "This URL has been detected as malicious with a score of 9.",
+            "pattern": "[url:value = 'manufacturer-network-report.prod.k8.atcloud.io']",
+            "type": "indicator",
+            "id": "indicator--2e72cffd-5d82-4c25-a679-936bf0a0f758",
+            "modified": "2018-12-03T22:32:16.972Z",
+            "valid_from": "2018-12-03T22:32:16.972636Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:16.990Z",
+            "description": "This URL has been detected as malicious with a score of 8.",
+            "pattern": "[url:value = 'device-bbf34240-3e52-4915-849e-a67ef6b918fa.remotewd.com']",
+            "type": "indicator",
+            "id": "indicator--314adadf-b922-4859-b9db-32a1f3c0b8e3",
+            "modified": "2018-12-03T22:32:16.990Z",
+            "valid_from": "2018-12-03T22:32:16.990555Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:16.993Z",
+            "description": "This URL has been detected as malicious with a score of 9.",
+            "pattern": "[url:value = 'pbxupgrade15.3cx.co.za']",
+            "type": "indicator",
+            "id": "indicator--27984524-5167-4b8a-a0b1-aac10d156d18",
+            "modified": "2018-12-03T22:32:16.993Z",
+            "valid_from": "2018-12-03T22:32:16.993577Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:16.994Z",
+            "description": "This URL has been detected as malicious with a score of 9.",
+            "pattern": "[url:value = 'www.staging3.smaakensensatie.nl']",
+            "type": "indicator",
+            "id": "indicator--deaf3e0c-5319-4c45-97e6-9e8fc4454dc8",
+            "modified": "2018-12-03T22:32:16.994Z",
+            "valid_from": "2018-12-03T22:32:16.994575Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:16.995Z",
+            "description": "This URL has been detected as malicious with a score of 8.",
+            "pattern": "[url:value = 'n1yk4piv6unluxza.myfritz.net']",
+            "type": "indicator",
+            "id": "indicator--6cfd56bf-bf1c-480c-b2e4-108616984da7",
+            "modified": "2018-12-03T22:32:16.995Z",
+            "valid_from": "2018-12-03T22:32:16.995571Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:16.997Z",
+            "description": "This URL has been detected as malicious with a score of 8.",
+            "pattern": "[url:value = '225f47a3437f32967cbe02e2.keenetic.io']",
+            "type": "indicator",
+            "id": "indicator--864a5cbc-bdbf-41a5-8d23-de9a480921cb",
+            "modified": "2018-12-03T22:32:16.997Z",
+            "valid_from": "2018-12-03T22:32:16.997568Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:16.998Z",
+            "description": "This URL has been detected as malicious with a score of 8.",
+            "pattern": "[url:value = 'technance247.com']",
+            "type": "indicator",
+            "id": "indicator--9cc0d205-3245-4561-ba4e-1280853822d8",
+            "modified": "2018-12-03T22:32:16.998Z",
+            "valid_from": "2018-12-03T22:32:16.998563Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:16.999Z",
+            "description": "This URL has been detected as malicious with a score of 9.",
+            "pattern": "[url:value = 'v3.pn-sanggau.go.id']",
+            "type": "indicator",
+            "id": "indicator--16ff1690-41d6-4852-9a14-3e13bedbdb37",
+            "modified": "2018-12-03T22:32:16.999Z",
+            "valid_from": "2018-12-03T22:32:16.99956Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:17.000Z",
+            "description": "This URL has been detected as malicious with a score of 9.5.",
+            "pattern": "[url:value = 'livebet.org']",
+            "type": "indicator",
+            "id": "indicator--8ee28f43-b295-4c1e-9957-0b3edee4571a",
+            "modified": "2018-12-03T22:32:17.000Z",
+            "valid_from": "2018-12-03T22:32:17.000561Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:17.001Z",
+            "description": "This URL has been detected as malicious with a score of 15.0.",
+            "pattern": "[url:value = 'cpanel.googlepages.heliohost.org']",
+            "type": "indicator",
+            "id": "indicator--4150218b-8430-455f-9dc4-01aa8688bcae",
+            "modified": "2018-12-03T22:32:17.001Z",
+            "valid_from": "2018-12-03T22:32:17.001526Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:17.002Z",
+            "description": "This URL has been detected as malicious with a score of 9.",
+            "pattern": "[url:value = 'v4.pn-sanggau.go.id']",
+            "type": "indicator",
+            "id": "indicator--f3eb7977-260e-4252-9295-81c1afa77f6f",
+            "modified": "2018-12-03T22:32:17.002Z",
+            "valid_from": "2018-12-03T22:32:17.002549Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:17.002Z",
+            "description": "This URL has been detected as malicious with a score of 8.",
+            "pattern": "[url:value = 'cpanel.shopnmart.com']",
+            "type": "indicator",
+            "id": "indicator--6c491676-e551-4dd9-8467-8a4b1c7c44f5",
+            "modified": "2018-12-03T22:32:17.002Z",
+            "valid_from": "2018-12-03T22:32:17.002549Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:17.003Z",
+            "description": "This URL has been detected as malicious with a score of 9.",
+            "pattern": "[url:value = 'foto.dahsyat.co.id']",
+            "type": "indicator",
+            "id": "indicator--641fc3bf-f934-4109-b9da-9d85e8c3a207",
+            "modified": "2018-12-03T22:32:17.003Z",
+            "valid_from": "2018-12-03T22:32:17.003521Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:17.004Z",
+            "description": "This URL has been detected as malicious with a score of 9.",
+            "pattern": "[url:value = 'sita.pn-sanggau.go.id']",
+            "type": "indicator",
+            "id": "indicator--0fe07230-4c38-4123-ae21-39bab46010ad",
+            "modified": "2018-12-03T22:32:17.004Z",
+            "valid_from": "2018-12-03T22:32:17.004518Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:17.005Z",
+            "description": "This URL has been detected as malicious with a score of 8.",
+            "pattern": "[url:value = 'permas.harbourmalaysia.com']",
+            "type": "indicator",
+            "id": "indicator--503f6ea4-bd30-4eff-9486-8d49e17bcff0",
+            "modified": "2018-12-03T22:32:17.005Z",
+            "valid_from": "2018-12-03T22:32:17.005515Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:17.006Z",
+            "description": "This URL has been detected as malicious with a score of 9.5.",
+            "pattern": "[url:value = 'iconoffice.do180.com']",
+            "type": "indicator",
+            "id": "indicator--fc9f9500-5725-46ea-9749-98a9a696dd85",
+            "modified": "2018-12-03T22:32:17.006Z",
+            "valid_from": "2018-12-03T22:32:17.006513Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:17.006Z",
+            "description": "This URL has been detected as malicious with a score of 9.",
+            "pattern": "[url:value = 'eskum.pn-sanggau.go.id']",
+            "type": "indicator",
+            "id": "indicator--be0375f7-7667-4773-9a69-0006287c1431",
+            "modified": "2018-12-03T22:32:17.006Z",
+            "valid_from": "2018-12-03T22:32:17.006513Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:17.007Z",
+            "description": "This URL has been detected as malicious with a score of 9.",
+            "pattern": "[url:value = 'sipp.pn-sanggau.go.id']",
+            "type": "indicator",
+            "id": "indicator--89e9521b-6868-4aa0-8686-d02c42503a59",
+            "modified": "2018-12-03T22:32:17.007Z",
+            "valid_from": "2018-12-03T22:32:17.007509Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:17.008Z",
+            "description": "This URL has been detected as malicious with a score of 8.",
+            "pattern": "[url:value = 'juscendawanmekah.harbourmalaysia.com']",
+            "type": "indicator",
+            "id": "indicator--4ba80921-0621-494f-8736-cf4d28a54a02",
+            "modified": "2018-12-03T22:32:17.008Z",
+            "valid_from": "2018-12-03T22:32:17.008567Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:17.010Z",
+            "description": "This URL has been detected as malicious with a score of 9.",
+            "pattern": "[url:value = 'www.xekum.pn-sanggau.go.id']",
+            "type": "indicator",
+            "id": "indicator--96e6167d-0032-404c-a6c3-27a1cd3abfbf",
+            "modified": "2018-12-03T22:32:17.010Z",
+            "valid_from": "2018-12-03T22:32:17.010501Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:17.010Z",
+            "description": "This URL has been detected as malicious with a score of 9.",
+            "pattern": "[url:value = 'bornalternate.tk']",
+            "type": "indicator",
+            "id": "indicator--9e5311b0-0dd1-4181-9de0-af45d2bb2065",
+            "modified": "2018-12-03T22:32:17.010Z",
+            "valid_from": "2018-12-03T22:32:17.010501Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:17.011Z",
+            "description": "This URL has been detected as malicious with a score of 9.",
+            "pattern": "[url:value = 'panjar.pn-sanggau.go.id']",
+            "type": "indicator",
+            "id": "indicator--7e98bb56-339d-4d2d-8f3d-565dac4d94ef",
+            "modified": "2018-12-03T22:32:17.011Z",
+            "valid_from": "2018-12-03T22:32:17.011529Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:17.012Z",
+            "description": "This URL has been detected as malicious with a score of 8.",
+            "pattern": "[url:value = 'test.harbourmalaysia.com']",
+            "type": "indicator",
+            "id": "indicator--308261de-0b8a-4283-983f-b5ef08e32db8",
+            "modified": "2018-12-03T22:32:17.012Z",
+            "valid_from": "2018-12-03T22:32:17.012523Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:17.013Z",
+            "description": "This URL has been detected as malicious with a score of 8.",
+            "pattern": "[url:value = 'cli1.globaltel.es']",
+            "type": "indicator",
+            "id": "indicator--f4a9b1f4-2809-4c72-9fc5-16854515c68d",
+            "modified": "2018-12-03T22:32:17.013Z",
+            "valid_from": "2018-12-03T22:32:17.01352Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:17.013Z",
+            "description": "This URL has been detected as malicious with a score of 8.",
+            "pattern": "[url:value = 'convergentwireless.3cx.in']",
+            "type": "indicator",
+            "id": "indicator--7b177ceb-8aae-4af2-b165-7b1365215743",
+            "modified": "2018-12-03T22:32:17.013Z",
+            "valid_from": "2018-12-03T22:32:17.01352Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:17.014Z",
+            "description": "This URL has been detected as malicious with a score of 8.",
+            "pattern": "[url:value = 'e4b09bd1f14a3a54dd852af9.keenetic.io']",
+            "type": "indicator",
+            "id": "indicator--5b21ce6b-ca6c-438a-a575-3ea3a860d192",
+            "modified": "2018-12-03T22:32:17.014Z",
+            "valid_from": "2018-12-03T22:32:17.01449Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:17.015Z",
+            "description": "This URL has been detected as malicious with a score of 8.",
+            "pattern": "[url:value = 'www.dolcerelaxtrentino.it']",
+            "type": "indicator",
+            "id": "indicator--7bf3df1b-203f-4cab-ae4c-0d68ccd4bf0c",
+            "modified": "2018-12-03T22:32:17.015Z",
+            "valid_from": "2018-12-03T22:32:17.015488Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:17.016Z",
+            "description": "This URL has been detected as malicious with a score of 8.",
+            "pattern": "[url:value = 'registry.sandlabs.ru']",
+            "type": "indicator",
+            "id": "indicator--4a57f144-eabf-4ab5-aef9-5df357ca3a68",
+            "modified": "2018-12-03T22:32:17.016Z",
+            "valid_from": "2018-12-03T22:32:17.016507Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:17.016Z",
+            "description": "This URL has been detected as malicious with a score of 8.",
+            "pattern": "[url:value = 'susin-system.be']",
+            "type": "indicator",
+            "id": "indicator--fa15b1f2-4267-4a4d-a4f1-2e42f3a53650",
+            "modified": "2018-12-03T22:32:17.016Z",
+            "valid_from": "2018-12-03T22:32:17.016507Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:17.017Z",
+            "description": "This URL has been detected as malicious with a score of 8.",
+            "pattern": "[url:value = 'rbrkpr53lqpkxial.myfritz.net']",
+            "type": "indicator",
+            "id": "indicator--d1800165-f0fc-4cc3-8c12-7bb71c8a14d8",
+            "modified": "2018-12-03T22:32:17.017Z",
+            "valid_from": "2018-12-03T22:32:17.017505Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:17.018Z",
+            "description": "This URL has been detected as malicious with a score of 8.",
+            "pattern": "[url:value = 'studiocalandro.com']",
+            "type": "indicator",
+            "id": "indicator--320079ac-4fa9-4e5e-a5f6-3aa57bcaea3b",
+            "modified": "2018-12-03T22:32:17.018Z",
+            "valid_from": "2018-12-03T22:32:17.018501Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:17.019Z",
+            "description": "This URL has been detected as malicious with a score of 8.",
+            "pattern": "[url:value = 'ermco.com']",
+            "type": "indicator",
+            "id": "indicator--fe40e99c-11ce-495b-b69c-9e49fa5eec4d",
+            "modified": "2018-12-03T22:32:17.019Z",
+            "valid_from": "2018-12-03T22:32:17.019506Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:17.020Z",
+            "description": "This URL has been detected as malicious with a score of 9.",
+            "pattern": "[url:value = '130e1967-4323-4265-8f7e-29fa7d50474f.vpn.azure.com']",
+            "type": "indicator",
+            "id": "indicator--23a3d41d-1516-4675-a75d-5ca1b82dc273",
+            "modified": "2018-12-03T22:32:17.020Z",
+            "valid_from": "2018-12-03T22:32:17.020478Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:17.021Z",
+            "description": "This URL has been detected as malicious with a score of 8.",
+            "pattern": "[url:value = 'erisksolutions.com']",
+            "type": "indicator",
+            "id": "indicator--a0a24a3b-0f96-4f4e-a4da-49bafbb0c3b6",
+            "modified": "2018-12-03T22:32:17.021Z",
+            "valid_from": "2018-12-03T22:32:17.021476Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:17.022Z",
+            "description": "This URL has been detected as malicious with a score of 9.",
+            "pattern": "[url:value = '474dde7f-4a30-4d29-9fa7-58cb51b09dcd.vpn.azure.com']",
+            "type": "indicator",
+            "id": "indicator--2b5dc5f8-b862-466e-ae3b-5971313cbf80",
+            "modified": "2018-12-03T22:32:17.022Z",
+            "valid_from": "2018-12-03T22:32:17.022469Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:17.023Z",
+            "description": "This URL has been detected as malicious with a score of 9.",
+            "pattern": "[url:value = '05c14d50-5208-4ffe-89b2-80a482ea91f3.vpn.azure.com']",
+            "type": "indicator",
+            "id": "indicator--52749286-4323-4543-bd49-5314dfdfebe6",
+            "modified": "2018-12-03T22:32:17.023Z",
+            "valid_from": "2018-12-03T22:32:17.023485Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:17.024Z",
+            "description": "This URL has been detected as malicious with a score of 8.",
+            "pattern": "[url:value = 'ernesthemingwaycollection.com']",
+            "type": "indicator",
+            "id": "indicator--13f67586-f315-4bd7-b7fa-f8d6f1dc6635",
+            "modified": "2018-12-03T22:32:17.024Z",
+            "valid_from": "2018-12-03T22:32:17.024483Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:17.024Z",
+            "description": "This URL has been detected as malicious with a score of 9.",
+            "pattern": "[url:value = '27a66fca-33b0-4751-ba4c-a89876533327.vpn.azure.com']",
+            "type": "indicator",
+            "id": "indicator--85052f6a-dbaa-49fc-913b-20eb4406deda",
+            "modified": "2018-12-03T22:32:17.024Z",
+            "valid_from": "2018-12-03T22:32:17.024483Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:17.025Z",
+            "description": "This URL has been detected as malicious with a score of 8.",
+            "pattern": "[url:value = 'mail.lakshmi.it']",
+            "type": "indicator",
+            "id": "indicator--6f4dee67-5f16-4519-b0ed-256e5d484da2",
+            "modified": "2018-12-03T22:32:17.025Z",
+            "valid_from": "2018-12-03T22:32:17.025485Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:17.026Z",
+            "description": "This URL has been detected as malicious with a score of 8.",
+            "pattern": "[url:value = 'kl6exgqrjmdxcaux.myfritz.net']",
+            "type": "indicator",
+            "id": "indicator--e273573d-083f-4cff-9000-957e1f3c8a9d",
+            "modified": "2018-12-03T22:32:17.026Z",
+            "valid_from": "2018-12-03T22:32:17.026476Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:17.027Z",
+            "description": "This URL has been detected as malicious with a score of 8.",
+            "pattern": "[url:value = 'domoticz.koot.nl']",
+            "type": "indicator",
+            "id": "indicator--067c058f-ffec-4ab1-a5ae-8ff24ff748ad",
+            "modified": "2018-12-03T22:32:17.027Z",
+            "valid_from": "2018-12-03T22:32:17.027474Z"
+        },
+        {
+            "name": "Suspicious URL",
+            "labels": [
+                "malicious-activity"
+            ],
+            "created": "2018-12-03T23:32:17.027Z",
+            "description": "This URL has been detected as malicious with a score of 9.",
+            "pattern": "[url:value = 'goldman-gates.cms.ripplewerkz.co']",
+            "type": "indicator",
+            "id": "indicator--8a61d5a5-d729-4e73-83b0-f58faf4d879e",
+            "modified": "2018-12-03T22:32:17.027Z",
+            "valid_from": "2018-12-03T22:32:17.027474Z"
+        }
+    ],
+    "type": "bundle",
+    "id": "bundle--af32c911-2994-4b54-af2d-ba2cba435f77",
+    "spec_version": "2.0"
+}
