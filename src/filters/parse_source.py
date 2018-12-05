@@ -18,14 +18,14 @@ def parse_source(url):
         if "HTTrack" in c:
             score += 1
 
-    form = soup.find('form')
+    form = soup.find_all('form')
     if (len(form) != 0):
         score += 2
 
     inputs = soup.find_all('input')
     if (len(inputs) != 0):
         score += 1
-        password = soup.findAll(True, {'id':['pwd', 'pass', 'password', 'passw', 'mdp', 'pass']})
+        password = soup.find_all(True, {'id':['pwd', 'pass', 'password', 'passw', 'mdp', 'pass']})
         if (len(inputs) != 0):
             score += 1
 
