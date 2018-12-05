@@ -10,6 +10,7 @@ from src.filters.parse_source import parse_source
 from src.filters.check_redirect import check_redirect
 from src.filters.check_suspicious_words import check_words
 import src.producers.styx_output as styx
+from src.filters.href_filter import href_filter
 
 BUNDLE_SIZE = 300 # How many analysis before exporting to a file?
 
@@ -43,8 +44,9 @@ def ponderate(list_of_scores):
                    "certificate": 2,
                    "parse_source": 1.5,
                    "redirect": 3,
-                   "suspicious_word": 1
-                  }              
+                   "suspicious_word": 1,
+                   "suspicious_href": 2
+                  }
 
     # maximum_score = sum(ponderation[c] for c in ponderation)
     # counter = 0
@@ -65,7 +67,6 @@ def launch_analysis(url):
     """ Removing wildcards from domains """
     if url.startswith('*.'):
         url = url[2:]
-
     scores = []
 
     # print ("PORTS")
@@ -76,6 +77,8 @@ def launch_analysis(url):
     scores.append(["redirect", check_redirect(url)])
     # print ("WORDS")
     scores.append(["suspicious_word", check_words(url, suspicious)])
+
+    scores.append(["suspicious_href", href_filter(url,0.1)])
 
     final_score = ponderate(scores)
     print (url + " => " + str(final_score))
