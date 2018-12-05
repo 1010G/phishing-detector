@@ -1,36 +1,42 @@
-import urllib
+import requests
 import json
 import socket
 
-APIKEY = 'APIKEY'
 
+def blacklist(domain, APIKEY):
+    score = 0
+    try:
+        score+=blacklistDomain(domain, APIKEY)
+    except:
+        score+=0
+    try:
+        ip = socket.gethostbyname(domain)
+        score+=blacklistIp(ip, APIKEY)
+    except:
+        score+=0
 
+    #print("final score : " + str(score))
 
-def blacklist(domain):
-    ip = socket.gethostbyname(domain)
-    blacklistIp(ip)
-    blacklistDomain(domain)
+    return score
 
-    return
-
-def blacklistIp(ip):
+def blacklistIp(ip,APIKEY):
     url = 'https://www.virustotal.com/vtapi/v2/ip-address/report'
     parameters = {'ip': ip, 'apikey': APIKEY}
-    response = urllib.urlopen('%s?%s' % (url, urllib.urlencode(parameters))).read()
-    response_dict = json.loads(response)
-    #TODO detected_urls alors detected
-    print response_dict
+    response = requests.get(url, params=parameters)
+    response_json = response.json()
 
-    return
+    return len(response_json['detected_urls'])
 
-def blacklistDomain(domain):
+def blacklistDomain(domain,APIKEY):
     url = 'https://www.virustotal.com/vtapi/v2/domain/report'
     parameters = {'domain': domain, 'apikey': APIKEY}
-    response = urllib.urlopen('%s?%s' % (url, urllib.urlencode(parameters))).read()
-    response_dict = json.loads(response)
-    print(response_dict)
-    # TODO detected_urls alors detected
-    return
+    response = requests.get(url, params=parameters)
+    response_json = response.json()
+    if(response_json['verbose_msg'] == 'Domain not found'):
+        return 0
+
+    return len(response_json['detected_urls'])
 
 if __name__ == '__main__':
-    blacklist("DOMAIN")
+    apikey = ''
+    blacklist("domain.fr",apikey)
